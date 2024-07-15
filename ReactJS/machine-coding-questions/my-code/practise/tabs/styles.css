@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+  margin: 25px;
+  padding: 50px;
+}
+
+#tabs {
+  display: flex;
+  justify-content: center;
+}
+
+#tabs-data-container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  display: block;
+  color: black;
+  background-color: blue;
+}
